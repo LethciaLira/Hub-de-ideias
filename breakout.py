@@ -9,11 +9,11 @@ pygame.init()
 ASSETS_PATH = os.path.join(os.path.dirname(__file__), "assets")
 
 # Sounds
-#bounce_sound = pygame.mixer.Sound(os.path.join(ASSETS_PATH, "bounce.wav"))
-#score_sound = pygame.mixer.Sound(os.path.join(ASSETS_PATH, "258020__kodack__arcade-bleep-sound.wav"))
+bounce_sound = pygame.mixer.Sound(os.path.join(ASSETS_PATH, "bounce.wav"))
+score_sound = pygame.mixer.Sound(os.path.join(ASSETS_PATH, "258020__kodack__arcade-bleep-sound.wav"))
 
 # Text
-#score_font = pygame.font.Font(os.path.join(ASSETS_PATH, "PressStart2P.ttf"), 44)
+score_font = pygame.font.Font(os.path.join(ASSETS_PATH, "PressStart2P.ttf"), 44)
 menu_font = pygame.font.Font(os.path.join(ASSETS_PATH, "PressStart2P.ttf"), 60)
 
 # Colors
