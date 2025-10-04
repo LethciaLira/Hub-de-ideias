@@ -43,7 +43,7 @@ speed_boost = {
     COLOR_GREEN: 1.2,   
     COLOR_ORANGE: 1.3, 
     COLOR_RED: 1.4      
-}
+
 
 
 # Constants
@@ -223,8 +223,7 @@ def game_loop():
         screen.blit(score_text, (150, 20))
         score2_text = score_font.render("2: 000", True, COLOR_WHITE)
         screen.blit(score2_text, (500, 20))
-        
-
+       
 
         pygame.display.flip()
 
